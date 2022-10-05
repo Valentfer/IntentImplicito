@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAgre"
+        android:layout_width="204dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#BAB2B2"
+        android:text="AGREGAR CONTACTO"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/teal_700"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn112"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#B1AAAA"
+        android:text="LLAMAR AL 112"
+        android:textColor="#131313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgre" />
+</androidx.constraintlayout.widget.ConstraintLayout>
